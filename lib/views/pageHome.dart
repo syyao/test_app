@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
-class PageUne extends StatelessWidget {
+import 'package:google_fonts/google_fonts.dart';
+class PageHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: Drawer(),
       appBar: AppBar(
-        backgroundColor: Colors.blueGrey,
-        title: Text('Happy people'),
+      
+        title: Text(
+  'Sydney Yao',
+  style: GoogleFonts.getFont('Indie Flower'),
+),
 
       ),
      
